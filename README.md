@@ -1,5 +1,29 @@
-# private_uncensored_AI
-Create private uncensored AI, which will not share your data to the internet. Its free to use and safe. 
+# Run Your Own Private AI  
+
+This project provides a complete step‑by‑step guide to setting up your **private, uncensored AI** with Ollama — fast, easy, and completely free.  
+
+## 📖 What You’ll Learn  
+- How to run AI **offline** for maximum privacy and security  
+- Full installation walkthroughs for:  
+  - **Ollama on Windows**  
+  - **Ollama on Ubuntu**  
+  - **Ollama with Docker**  
+- Connecting and managing **Llama WebUI** for a smooth local interface  
+- Safe uninstall instructions if you ever want to reset or start fresh  
+
+## 🚀 Why This Guide?  
+Whether you’re a beginner or an advanced user, this tutorial shows you exactly how to run your own AI locally — without relying on the cloud.  
+
+By the end, you’ll have a **fast, reliable, and private AI environment** using Ollama Docker and Open WebUI, fully optimized for:  
+- 🔒 **Privacy**  
+- ⚡ **Offline performance**  
+- 🛠️ **Complete control**  
+
+## ⚡ Quick Start Example  
+After installation, try running:  
+
+
+
 ## 1. Intstall Ubuntu
 - From windows command prompt-> wsl --install
 - Create a default Unix user account: shovan
@@ -50,14 +74,19 @@ Create private uncensored AI, which will not share your data to the internet. It
 - sudo rm -rf /var/lib/containerd
 - sudo rm /etc/apt/sources.list.d/docker.sources
 - sudo rm /etc/apt/keyrings/docker.asc
+
+
 ### Uninstall Ollama
  - sudo systemctl stop ollama
  - sudo systemctl disable ollama
  - sudo rm /etc/systemd/system/ollama.service
+
+
 ### Remove the downloaded models 
  - sudo userdel ollama
  - sudo groupdel ollama
  - sudo rm -r /usr/share/ollama
+
   
 ### Ungerister Ubuntu
 - -> wsl --unregister Ubuntu
